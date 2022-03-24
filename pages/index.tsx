@@ -2,67 +2,82 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
-const Home: NextPage = () => {
+export default function Home() {
+
   return (
+    
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>Cordoverse</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+      <header className='flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-gray-700'>
+        {/* <Image
+          priority
+          src="/images/logo.jpg"
+          className=""
+          height={144}
+          width={144}
+          alt="logo"
+        />
+        <h2>Cordoverse</h2> */}
+        
+      </header>
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center pb-20">
         <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
+          Bienvenidos al{' '}
+          <a className="text-blue-600" href="https://discord.gg/tVW6e9FH">
+            Cordoverse
           </a>
         </h1>
 
         <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
+          Primera DAO de Córdoba{' '}
+        </p>
+        <p className="mt-3 text-xl">
+          <code className="rounded-md pt-3 font-mono text-lg">
+            cuyo propósito es potenciar el ecosistema crypto de la región fomentando espacios de encuentro, conversación y co-creación #WAGMI
           </code>
         </p>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
-            href="https://nextjs.org/docs"
+            href="https://twitter.com/Cordoverse"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
+            <h3 className="text-2xl font-bold">Twitter &rarr;</h3>
             <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
+              Seguinos en twitter
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn"
+            href="https://discord.gg/tVW6e9FH"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
+            <h3 className="text-2xl font-bold">Discord &rarr;</h3>
             <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
+              Unite a nuestro discord
             </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
+            <h3 className="text-2xl font-bold">Eventos &rarr;</h3>
             <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
+              Segui y participa en nuestros eventos
             </p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
+            <h3 className="text-2xl font-bold">Participa &rarr;</h3>
             <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Te invitamos a ser parte
             </p>
           </a>
         </div>
@@ -83,4 +98,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+
