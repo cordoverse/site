@@ -28,7 +28,7 @@ export default function MyApp() {
                             <div class="bg-white shadow rounded p-8">
                                 <div class="flex items-center justify-between">
                                     <div>
-                                        <h2 class="text-base font-semibold leading-none text-gray-800">Cual es el fin de la comunidad?</h2>
+                                        <h2 class="text-base font-semibold leading-none text-gray-800">[Cual es el fin de la comunidad?]</h2>
                                     </div>
                                     <button onClick={() => setBox1(!box1)} class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
                                         {box1 ? (
@@ -46,7 +46,7 @@ export default function MyApp() {
                                 {box1 && (
                                     <ul class="">
                                         <li>
-                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">lorem bla bla bla   </p>
+                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">[lorem bla bla bla   ]</p>
                                         </li>
                                     </ul>
                                 )}
@@ -54,7 +54,7 @@ export default function MyApp() {
                             <div class="bg-white shadow rounded p-8 mt-8">
                                 <div class="flex items-center justify-between">
                                     <div>
-                                        <h2 class="text-base font-semibold leading-none text-gray-800">Como participo?</h2>
+                                        <h2 class="text-base font-semibold leading-none text-gray-800">[Como participo?]</h2>
                                     </div>
                                     <button
                                         onClick={() => {
@@ -77,7 +77,7 @@ export default function MyApp() {
                                 {box2 && (
                                     <ul>
                                         <li>
-                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.</p>
+                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">[Te unis al discord, te presentas, y colaboras en las tareas que te sientas mas comodo.]</p>
                                         </li>
                                     </ul>
                                 )}
@@ -108,7 +108,7 @@ export default function MyApp() {
                                 {box3 && (
                                     <ul>
                                         <li>
-                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.</p>
+                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">[Esto es gratis]</p>
                                         </li>
                                     </ul>
                                 )}
@@ -116,7 +116,7 @@ export default function MyApp() {
                             <div class="bg-white shadow rounded p-8 mt-8">
                                 <div class="flex items-center justify-between">
                                     <div>
-                                        <h2 class="text-base font-semibold leading-none text-gray-800">Esto funciona?</h2>
+                                        <h2 class="text-base font-semibold leading-none text-gray-800">[Esto funciona?]</h2>
                                     </div>
                                     <button onClick={() => setBox4(!box4)} data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
                                         {box4 ? (
@@ -133,7 +133,7 @@ export default function MyApp() {
                                 {box4 && (
                                     <ul>
                                         <li>
-                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.</p>
+                                            <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">[La comunidad esta empezando.]</p>
                                         </li>
                                     </ul>
                                 )}

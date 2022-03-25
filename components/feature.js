@@ -21,7 +21,7 @@ export default function index() {
                                 <h2>Eventos</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center ">
-                                <p>[Insertar breve descripcion]</p>
+                                <p>[Fomentar la comunidad y el networking]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -36,7 +36,7 @@ export default function index() {
                                 <h2>Reuniones</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>[Insertar breve descripcion]</p>
+                                <p>[Queremos generar un espacio local]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -51,7 +51,7 @@ export default function index() {
                                 <h2>Comunidad</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>[Insertar breve descripcion]</p>
+                                <p>[Conectamos con involucrados en crypto en cordoba]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -66,7 +66,7 @@ export default function index() {
                                 <h2>NFT</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>[Insertar breve descripcion]</p>
+                                <p>[Aprendemos y compartimos sobre el tema]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -84,7 +84,7 @@ export default function index() {
                                 <h2>Defi</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>[Insertar breve descripcion]</p>
+                                <p>[Aprendemos y compartimos sobre el tema]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -108,7 +108,7 @@ export default function index() {
                                 <h2>DAO</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>[Insertar breve descripcion]</p>
+                                <p>[Queremos formar una dao para gestionar la comunidad]</p>
                             </div>
                         </div>
                     </div>

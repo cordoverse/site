@@ -13,7 +13,6 @@ export default function Page() {
             <HeroEvent></HeroEvent>
             <EventBanner></EventBanner>
             <EventContent></EventContent>
-            {/* <EventSpeaker></EventSpeaker> */}
         </Layout>
     )
 }
