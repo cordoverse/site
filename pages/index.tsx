@@ -1,30 +1,23 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Layout from '../components/layout'
+import Hero from '../components/hero'
+import CtaJoin from '../components/ctaJoin'
+import CtaTitle from '../components/ctaTitle'
+import CtaAct from '../components/ctaAct'
+import Feature from '../components/feature'
 
 export default function Home() {
 
   return (
-    
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
-        <title>Cordoverse</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <header className='flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-gray-700'>
-        {/* <Image
-          priority
-          src="/images/logo.jpg"
-          className=""
-          height={144}
-          width={144}
-          alt="logo"
-        />
-        <h2>Cordoverse</h2> */}
-        
-      </header>
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center pb-20">
-        <h1 className="text-6xl font-bold">
+    <Layout>
+        <Hero></Hero>
+        <CtaTitle></CtaTitle>
+        <CtaAct></CtaAct>
+        <Feature></Feature>
+        <CtaJoin></CtaJoin>
+        {/* <h1 className="text-6xl font-bold">
           Bienvenidos al{' '}
           <a className="text-blue-600" href="https://discord.gg/tVW6e9FH">
             Cordoverse
@@ -80,21 +73,8 @@ export default function Home() {
               Te invitamos a ser parte
             </p>
           </a>
-        </div>
-      </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
-    </div>
+        </div> */}
+    </Layout>
   )
 }
 
