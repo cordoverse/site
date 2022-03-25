@@ -10,6 +10,7 @@ export default function Layout({children}) {
              <Head>
                 <title>Cordoverse</title>
                 <link rel="icon" href="/favicon.ico" />
+                
             </Head>
             <Header></Header>
             <main>{children}</main>

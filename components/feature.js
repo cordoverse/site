@@ -2,11 +2,11 @@ import React from "react";
 
 export default function index() {
     return (
-        <div className="dark:bg-gray-900">
+        <div className="features--bg-color dark:bg-gray-900">
             <section className="mx-auto container py-20 ">
                 <div className="flex justify-center items-center flex-col">
                     <div className="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-center text-gray-800 dark:text-white">
-                        <h1>Tailor-made features</h1>
+                        <h1>Crypto comunidad cordobesa</h1>
                     </div>
                     <div className="pt-24 grid lg:grid-cols-3 md:grid-cols-2 justify-center items-center xl:gap-y-16 gap-y-20 gap-x-16 lg:gap-x-20 xl:gap-x-0 lg:px-10 xl:px-0">
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -18,10 +18,10 @@ export default function index() {
                                 </svg>
                             </div>
                             <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                                <h2>Robust workflow</h2>
+                                <h2>Eventos</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center ">
-                                <p>Workflows can help streamline and automate repeatable business tasks.</p>
+                                <p>[Insertar breve descripcion]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -33,10 +33,10 @@ export default function index() {
                                 </svg>
                             </div>
                             <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                                <h2>Flexibility</h2>
+                                <h2>Reuniones</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>A flexible software architecture is able to changes in usability requirements</p>
+                                <p>[Insertar breve descripcion]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -48,10 +48,10 @@ export default function index() {
                                 </svg>
                             </div>
                             <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                                <h2>User friendly</h2>
+                                <h2>Comunidad</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>Good usability can improve a new software chances of successful adoption.</p>
+                                <p>[Insertar breve descripcion]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -63,10 +63,10 @@ export default function index() {
                                 </svg>
                             </div>
                             <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                                <h2>Multiple layouts</h2>
+                                <h2>NFT</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>Smaller components are easier to maintain. Program can be divided</p>
+                                <p>[Insertar breve descripcion]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -81,10 +81,10 @@ export default function index() {
                                 </svg>
                             </div>
                             <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                                <h2>Better components</h2>
+                                <h2>Defi</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>Component-based design makes front-end web development faster.</p>
+                                <p>[Insertar breve descripcion]</p>
                             </div>
                         </div>
                         <div className="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -105,10 +105,10 @@ export default function index() {
                                 </svg>
                             </div>
                             <div className="text-gray-800 dark:text-white text-2xl font-semibold text-center">
-                                <h2>Well organised</h2>
+                                <h2>DAO</h2>
                             </div>
                             <div className="text-gray-600 dark:text-gray-300 mt-2 text-lg text-center">
-                                <p>No more running around looking for things.When you write things and plan.</p>
+                                <p>[Insertar breve descripcion]</p>
                             </div>
                         </div>
                     </div>
