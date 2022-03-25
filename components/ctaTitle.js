@@ -10,7 +10,7 @@ export default function index() {
                             <h2>Construyendo la comunidad</h2>
                         </div>
                         <div className="flex justify-center items-center mt-16">
-                            <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800 hover:opacity-90 w-48 h-12 text-lg text-white bg-gradient-to-l from-indigo-600 to-indigo-700 rounded">Quiero ser parte</button>
+                            <a href="https://discord.gg/epuHwfx8" target="_blank" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 border border-indigo-700 py-2 sm:py-4 text-sm">Quiero ser parte</a>
                         </div>
                     </div>
                 </section>

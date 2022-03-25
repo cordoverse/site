@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SocialLinks from './socialLinks'
 import Image from 'next/image'
 import { Icon } from '@iconify/react';
+import Link from 'next/link'
 
 export default function index() {
 
@@ -11,16 +12,20 @@ export default function index() {
             <nav className="2xl:container 2xl:mx-auto sm:py-3 sm:px-7 py-4 px-4">
                 {/* For large and Medium-sized Screen */}
                 <div className="flex justify-between ">
-                    <div className=" flex space-x-3 items-center">
-                        <Image
-                            priority
-                            src="/images/logo.png"
-                            className="rounded-full"
-                            height={70}
-                            width={70}
-                            alt="logo"
-                        />
-                        <h1 className="header--logo-name font-normal text-2xl leading-6">CORDOVERSE</h1>
+                    <div>
+                        <Link href={'/'}>
+                            <a className="flex space-x-3 items-center">
+                                <Image
+                                    priority
+                                    src="/images/logo.png"
+                                    className="rounded-full"
+                                    height={70}
+                                    width={70}
+                                    alt="logo"
+                                />
+                                <h1 className="header--logo-name font-normal text-2xl leading-6">CORDOVERSE</h1>
+                            </a>
+                        </Link>
                     </div>
                     <div className="hidden sm:flex flex-row items-center space-x-6">
                         <SocialLinks></SocialLinks>
