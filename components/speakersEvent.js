@@ -1,44 +1,51 @@
 const Index = () => {
-  const speakers = [
+  const talks = [
     {
       id: 1,
-      name: 'Vitalik Buterin',
+      title: 'Presentacion',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed sem eu quam mattis dapibus. Curabitur vestibulum luctus metus. Pellentesque.',
       image:
         'https://pbs.twimg.com/profile_images/977496875887558661/L86xyLF4_400x400.jpg',
     },
     {
       id: 2,
-      name: 'ElChango.eth',
+      title: 'Token',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed sem eu quam mattis dapibus. Curabitur vestibulum luctus metus. Pellentesque.',
       image:
         'https://pbs.twimg.com/profile_images/1476729377266229250/nYLX0Nje_400x400.jpg',
     },
     {
       id: 3,
-      name: 'pablito.eth',
+      title: 'CordobARTE',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed sem eu quam mattis dapibus. Curabitur vestibulum luctus metus. Pellentesque.',
       image:
         'https://pbs.twimg.com/profile_images/1480052202886426624/nJhZhBgb_400x400.jpg',
     },
   ]
   return (
     <section class="flex h-full max-w-full flex-col items-center justify-center bg-[#260E30]">
-      <div class="flex max-w-3xl flex-row items-center justify-center">
-        <h1 class="text-right text-6xl font-bold text-[#FEA7DD]">Speakers</h1>
+      <div class="flex max-w-3xl flex-col items-center justify-center">
+        <h1 class="text-center text-4xl font-bold text-[#FEA7DD]">
+          Sumate al primer evento de la comunidad de Cordoverse!
+        </h1>
         <div class="flex flex-col p-10">
-          <div class="flex flex-row items-center">
-            {speakers.map((speaker) => (
-              <>
-                <img
-                  key="01"
-                  className={`shadow-solid box-content inline-block h-14 w-14 rounded-full border-2 border-[#FEA7DD] object-cover text-white`}
-                  src={speaker.image}
-                  alt={speaker.name}
-                />
-                <p class="p-3 text-right text-2xl font-bold text-[#FEA7DD]">
-                  {speaker.name}
-                </p>
-              </>
-            ))}
-          </div>
+          <h2 class="text-center text-3xl font-bold text-[#FEA7DD]">
+            Cronograma de charlas
+          </h2>
+          {talks.map((talk) => (
+            <div
+              class="flex flex-col w-full items-center rounded-md bg-[#121345] my-4 p-5"
+              key={talk.id}
+            >
+              <h4 class="text-slate-50 text-3xl text-left">{talk.title}</h4>
+              <p class="p-3 text-left text-lg font-bold text-slate-200">
+                {talk.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

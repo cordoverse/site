@@ -1,18 +1,19 @@
 const Index = () => {
   return (
-    <section class="flex max-w-full h-screen flex-col items-center justify-center bg-[#260E30]">
+    <section class="flex h-screen max-w-full flex-col items-center justify-center bg-[#260E30]">
+      <h1 class="text-right text-6xl font-bold text-[#FEA7DD]">
+        Cordoverse Community [Insertar logo]
+      </h1>
       <div class="flex max-w-3xl flex-row items-center justify-center">
-        <h1 class="text-6xl font-bold text-right text-[#FEA7DD]">Cordoverse: NFT-01</h1>
         <div class="p-10">
-          <p class="text-2xl text-[#FEA7DD]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan
-          scelerisque neque blandit rutrum. Nullam mattis ultrices diam, quis
-          sodales dui lobortis eu. In leo orci, bibendum in bibendum sed,
-          ultricies ac odio. Donec non nunc ac sem placerat dignissim.
+          <p class="text-4xl text-[#FEA7DD]">
+            Se viene el tunga tunga!
           </p>
         </div>
       </div>
-      <button class="bg-[#FEA7DD] py-2 px-5 rounded-lg text-2xl font-bold">Quiero ir!</button>
+      <a class="rounded-lg bg-[#FEA7DD] py-2 px-5 text-2xl font-bold" href="https://www.eventbrite.com.ar/e/registro-cordoverse-community-meet-up-v1-307898943027?aff=Sitioweb" target="_blank">
+        Quiero ir!
+      </a>
     </section>
   )
 }
