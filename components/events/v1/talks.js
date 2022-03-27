@@ -1,4 +1,4 @@
-const Index = () => {
+const Talks = () => {
   const talks = [
     {
       id: 1,
@@ -26,7 +26,7 @@ const Index = () => {
     },
   ]
   return (
-    <section class="flex h-full flex-col items-center justify-center bg-[#260E30]">
+    <section class="flex h-full flex-col items-center justify-center bg-[#260E30] py-10">
       <div class="flex flex-col items-center justify-center">
         <h1 class="text-center text-4xl font-bold text-[#FEA7DD]">
           Sumate al primer evento de la comunidad de Cordoverse!
@@ -52,4 +52,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Talks

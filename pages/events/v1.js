@@ -1,17 +1,17 @@
-import HeroEvent from '../../components/heroEvent';
-import SpeakersEvent from '../../components/speakersEvent';
-import LocationEvent from '../../components/locationEvent';
-import FooterEvent from '../../components/footerEvent';
-import TeamsEvent from '../../components/teams';
+import Hero from '../../components/events/v1/hero';
+import Talks from '../../components/events/v1/talks';
+import Location from '../../components/events/v1/location';
+import Footer from '../../components/events/v1/footer';
+import Teams from '../../components/events/v1/teams';
 
 export default function Page() {
   return (
-    <>
-      <HeroEvent />
-      <SpeakersEvent />
-      <LocationEvent />
-      <FooterEvent />
-      {/* <TeamsEvent /> */}
-    </>
+    <div class="bg-[url('/images/bg-cv.png')]">
+      <Hero />
+      <Talks />
+      <Location />
+      <Footer />
+      {/* <Teams /> */}
+    </div>
   )
 }

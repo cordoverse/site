@@ -1,6 +1,6 @@
-const Index = () => {
+const Hero = () => {
   return (
-    <div class="flex h-screen flex-col items-center justify-center bg-[#260E30]">
+    <div class="flex h-screen flex-col items-center justify-center p-5">
       <img src="/images/logo-cv-crop.png" class="h-36" />
       <h1 class="text-center text-6xl font-bold text-[#FEA7DD]">
         Cordoverse Community
@@ -22,4 +22,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Hero;

@@ -1,4 +1,4 @@
-const Index = () => {
+const Location = () => {
   return (
     <section class="flex h-full w-screen flex-col items-center justify-center bg-[#260E30]">
       <div class="flex h-72 w-screen flex-row items-center justify-around">
@@ -28,4 +28,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Location;
