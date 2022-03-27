@@ -26,22 +26,22 @@ const Index = () => {
     },
   ]
   return (
-    <section class="flex h-full max-w-full flex-col items-center justify-center bg-[#260E30]">
-      <div class="flex max-w-3xl flex-col items-center justify-center">
+    <section class="flex h-full flex-col items-center justify-center bg-[#260E30]">
+      <div class="flex flex-col items-center justify-center">
         <h1 class="text-center text-4xl font-bold text-[#FEA7DD]">
           Sumate al primer evento de la comunidad de Cordoverse!
         </h1>
         <div class="flex flex-col p-10">
-          <h2 class="text-center text-3xl font-bold text-[#FEA7DD]">
+          <h2 class="text-center text-3xl font-bold text-[#EC6171]">
             Cronograma de charlas
           </h2>
           {talks.map((talk) => (
             <div
-              class="flex flex-col w-full items-center rounded-md bg-[#121345] my-4 p-5"
+              class="flex flex-col w-full items-center rounded-lg border-2 border-[#EC6171] my-4 p-5"
               key={talk.id}
             >
-              <h4 class="text-slate-50 text-3xl text-left">{talk.title}</h4>
-              <p class="p-3 text-left text-lg font-bold text-slate-200">
+              <h4 class="text-slate-50 text-4xl text-left">{talk.title}</h4>
+              <p class="p-3 text-center text-lg font-bold text-slate-200">
                 {talk.description}
               </p>
             </div>

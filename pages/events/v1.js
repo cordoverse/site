@@ -11,7 +11,7 @@ export default function Page() {
       <SpeakersEvent />
       <LocationEvent />
       <FooterEvent />
-      <TeamsEvent />
+      {/* <TeamsEvent /> */}
     </>
   )
 }
