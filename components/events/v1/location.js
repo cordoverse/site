@@ -1,26 +1,9 @@
 import { Icon } from '@iconify/react'
-import { useEffect, useState } from 'react'
 
 const Location = () => {
-  const [image, setImage] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (image >= 2) {
-        setImage(0);
-      } else {
-        setImage(image + 1);
-      }
-    }, 4500);
-
-    return () => {
-      clearInterval(interval);
-    };
-  });
-
   return (
     <section class="flex h-full w-screen flex-col items-center justify-center bg-[#260E30]">
-      <div class={`flex w-full h-full flex-row items-center justify-center bg-[url('/images/ma-${image}.png')]`}>
+      <div class="flex w-full h-full flex-row items-center justify-center bg-[url('/images/ma-1.png')]">
         <div class="flex w-full h-full flex-col items-center justify-start py-10 bg-[#260E30] bg-opacity-50">
           <div class="flex flex-row items-center justify-center mb-5 mt-5">
             <Icon
