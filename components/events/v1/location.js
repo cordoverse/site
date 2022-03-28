@@ -61,7 +61,7 @@ const Location = () => {
         loading="lazy"
       />
       <a
-        class="mb-10 rounded-lg bg-[#B967BA] py-2 px-5 text-3xl font-bold hover:bg-[#FEA7DD]"
+        class="mb-10 rounded-lg bg-[#70d0c8] py-2 px-5 text-3xl font-bold"
         href="https://www.eventbrite.com.ar/e/registro-cordoverse-community-meet-up-v1-307898943027?aff=Sitioweb"
         target="_blank"
       >
