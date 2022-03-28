@@ -1,11 +1,28 @@
 import { Icon } from '@iconify/react'
+import { useEffect, useState } from 'react'
 
 const Location = () => {
+  const [image, setImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (image >= 2) {
+        setImage(0);
+      } else {
+        setImage(image + 1);
+      }
+    }, 4500);
+
+    return () => {
+      clearInterval(interval);
+    };
+  });
+
   return (
     <section class="flex h-full w-screen flex-col items-center justify-center bg-[#260E30]">
-      <div class="flex w-96 flex-row items-center justify-center">
-        <div class="flex flex-col items-start justify-start">
-          <div class="flex flex-row items-center justify-center mb-5">
+      <div class={`flex w-full h-full flex-row items-center justify-center bg-[url('/images/ma-${image}.png')]`}>
+        <div class="flex w-full h-full flex-col items-center justify-start py-10 bg-[#260E30] bg-opacity-50">
+          <div class="flex flex-row items-center justify-center mb-5 mt-5">
             <Icon
               icon="arcticons:calendar-proton-1"
               class="mr-5"
@@ -39,7 +56,7 @@ const Location = () => {
         </div>
       </div>
       <iframe
-        class="h-72 w-screen py-10 drop-shadow-lg"
+        class="h-72 w-screen pb-10 drop-shadow-lg"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.2818235217023!2d-64.19936258424866!3d-31.406360502910896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299c318d5b2c9%3A0x453aa48aa4ddcc12!2sMercado%20Alberdi!5e0!3m2!1sen!2sar!4v1648235953188!5m2!1sen!2sar"
         loading="lazy"
       />

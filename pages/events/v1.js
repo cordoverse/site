@@ -6,12 +6,12 @@ import Footer from '../../components/events/v1/footer';
 
 export default function Page() {
   return (
-    <div class="bg-[url('/images/bg-cv.png')]">
+    <>
       <Hero />
       <Talks />
       <Location />
       <Social />
       <Footer />
-    </div>  
+    </>  
   )
 }
