@@ -12,35 +12,3 @@ body {
 * {
     box-sizing: border-box;
 }
-
-.header--bg-color,
-.footer--bg-color,
-.hero--bg-color,
-.ctaact--bg-color,
-.features--bg-color,
-.ctajoin--bg-color,
-.faq--bg-color {
-    background-color: #221033;
-}
-.header--logo-name {
-    color: #FB2AAB;
-    font-size: 2rem;
-}
-.header--border-color,
-.footer--border-color {
-    border-color: #a11cb3;
-}
-
-.hero--text-color,
-.footer--text-color {
-    color: #FB2AAB;
-}
-
-.text-color-cba{
-    font-color: #b965b9;
-    color: #fea7dd;
-    color: #ec6071;
-    color: #bf2993;
-    color: #FB2AAB
-
-}
