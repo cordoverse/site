@@ -33,22 +33,22 @@ const Talks = () => {
     },
   ]
   return (
-    <section class="flex h-full flex-col items-center justify-center bg-[#260E30] py-10">
-      <div class="flex flex-col items-center justify-center">
-        <h1 class="text-center text-4xl font-bold text-[#FEA7DD]">
+    <section className="flex h-full flex-col items-center justify-center bg-[#260E30] py-10">
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-center text-4xl font-bold text-[#FEA7DD]">
           Sumate al primer evento de la comunidad de Cordoverse!
         </h1>
-        <div class="flex flex-col p-10">
-          <h2 class="text-center text-3xl font-bold text-[#EC6171]">
+        <div className="flex flex-col p-10">
+          <h2 className="text-center text-3xl font-bold text-[#EC6171]">
             Cronograma de charlas
           </h2>
           {talks.map((talk) => (
             <div
-              class="my-4 flex w-full flex-col items-center rounded-lg border-2 border-[#EC6171] p-5"
+              className="my-4 flex w-full flex-col items-center rounded-lg border-2 border-[#EC6171] p-5"
               key={talk.id}
             >
-              <h4 class="text-left text-4xl text-slate-50">{talk.title}</h4>
-              <p class="p-3 text-center text-xl font-bold text-slate-200">
+              <h4 className="text-left text-4xl text-slate-50">{talk.title}</h4>
+              <p className="p-3 text-center text-xl font-bold text-slate-200">
                 {talk.description}
               </p>
             </div>
