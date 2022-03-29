@@ -31,6 +31,12 @@ const Talks = () => {
       image:
         'https://pbs.twimg.com/profile_images/1480052202886426624/nJhZhBgb_400x400.jpg',
     },
+    {
+      id: 5,
+      title: 'Workshop DAO',
+      description: 
+        'Daremos los conceptos básicos de qué es una DAO y plantearemos las bases para poder construirla entre todos.'
+    }
   ]
   return (
     <section className="flex h-full flex-col items-center justify-center bg-[#260E30] py-10">
