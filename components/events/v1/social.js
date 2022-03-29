@@ -19,17 +19,17 @@ const Social = () => {
     },
   ]
   return (
-    <section class="flex h-full flex-col items-center justify-center bg-[#260E30] p-10">
-      <div class="flex w-screen flex-col items-center justify-center">
-        <h2 class="text-center text-3xl font-bold text-[#FEA7DD]">
+    <section className="flex h-full flex-col items-center justify-center bg-[#260E30] p-10">
+      <div className="flex w-screen flex-col items-center justify-center">
+        <h2 className="text-center text-3xl font-bold text-[#FEA7DD]">
           Unite y participá en la construcción de la comunidad local crypto en
           Córdoba!
         </h2>
       </div>
-      <div class="flex flex-row p-10">
+      <div className="flex flex-row p-10">
         {links.map(({ name, url, icon }) => (
           <a
-            class="rounded-lg py-2 px-2 text-2xl font-bold "
+            className="rounded-lg py-2 px-2 text-2xl font-bold "
             href={url}
             target="_blank"
           >
