@@ -4,15 +4,33 @@ import CtaJoin from '../components/ctaJoin'
 import CtaTitle from '../components/ctaTitle'
 import CtaAct from '../components/ctaAct'
 import Feature from '../components/feature'
+import Script from 'next/script'
 
 export default function Home() {
   return (
-    <Layout>
-      <Hero />
-      <CtaTitle />
-      <CtaAct />
-      <Feature />
-      <CtaJoin />
-    </Layout>
+    <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+        page_path: window.location.pathname,
+        });
+    `}
+      </Script>
+      <Layout>
+        <Hero />
+        <CtaTitle />
+        <CtaAct />
+        <Feature />
+        <CtaJoin />
+      </Layout>
+    </>
   )
 }
