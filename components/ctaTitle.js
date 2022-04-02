@@ -11,7 +11,7 @@ export default function index() {
                             <h2>Construyendo la comunidad</h2>
                         </div>
                         <div className="flex justify-center items-center mt-16">
-                            <a href="https://discord.gg/epuHwfx8" target="_blank" className="bg-[#FB2AAB] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-2xl	 transition duration-150 ease-in-out hover:bg-indigo-600 lg:font-bold  rounded text-white px-4 sm:px-10 border  py-2 sm:py-4">Quiero ser parte</a>
+                            <a href="https://discord.gg/SQGHetrmHu" target="_blank" className="bg-[#FB2AAB] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-2xl	 transition duration-150 ease-in-out hover:bg-indigo-600 lg:font-bold  rounded text-white px-4 sm:px-10 border  py-2 sm:py-4">Quiero ser parte</a>
                         </div>
                         <div className="flex flex-col items-center mt-16">
                             <h3 className="text-3xl font-black text-center text-white">Seguinos en las redes</h3>

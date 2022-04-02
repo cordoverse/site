@@ -8,7 +8,7 @@ export default function SocialLinks() {
             <a href="https://instagram.com/cordoverse" target="_blank">
                 <Icon icon="arcticons:instagram" color="#fea7dd" width="32" height="32" />
             </a>
-            <a href="https://discord.gg/epuHwfx8" target="_blank">
+            <a href="https://discord.gg/SQGHetrmHu" target="_blank">
                 <Icon icon="arcticons:discord" color="#fea7dd" width="32" height="32" />
             </a>
         </>
