@@ -14,7 +14,7 @@ const Social = () => {
     },
     {
       name: 'Discord',
-      url: 'https://discord.gg/epuHwfx8',
+      url: 'https://discord.gg/SQGHetrmHu',
       icon: 'arcticons:discord',
     },
   ]
