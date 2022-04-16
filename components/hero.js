@@ -11,7 +11,6 @@ function Index() {
                 <p className="lg:w-3/4 text-white font-normal text-2xl md:text-4xl text-center">Desde Cordoverse tenemos como objetivo conectar a la sociedad de la Provincia de Córdoba con el conocimiento y funcionamiento de las nuevas tecnologías digitales aplicadas en nuestra vida cotidiana que generan nuevas prácticas para mejorar nuestra calidad de vida y un mejor entendimiento del mundo.</p>
             </div>
         </div>
-
     );
 }
 
