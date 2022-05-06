@@ -9,6 +9,9 @@ module.exports = {
         'background': '#121345',
         'text': '#FEA7DD',
       },
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+      }
     },
   },
   plugins: [],
